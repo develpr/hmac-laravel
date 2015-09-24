@@ -1,0 +1,27 @@
+{
+  "name": "develpr/hmac-laravel",
+  "homepage": "http://develpr.github.io/hmac-laravel",
+  "description": "A bridge or adapter for HMAC package to make use with Laravel a bit simpler",
+  "keywords": ["api", "laravel", "hmac laravel", "hmac","security","develpr","sha256"],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Kevin Mitchell",
+      "homepage": "http://www.develpr.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "develpr/hmac": "0.1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "~0.9.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Develpr\\HmacLaravel\\": "src/"
+    }
+  }
+}
